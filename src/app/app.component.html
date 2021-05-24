@@ -1,0 +1,27 @@
+<div class="title-header">
+  <div>
+    <span class="logo-text">IHP</span> <span class="title-text">Provider Operations Platform</span>
+  </div>
+  <div style="width: 300px; display: flex; justify-content: space-around">
+    <span>Contact</span>
+    <span>Language</span>
+    <span>Search</span>
+  </div>
+</div>
+<mat-toolbar color="primary">
+  <button mat-button (click)="gotoBack()">Dashboard</button>
+  <button mat-button>Onboarding</button>
+  <button mat-button>Data</button>
+  <button mat-button>Outereach</button>
+  <button mat-button>Roster</button>
+  <span class="spacer"></span>
+  <span style="font-size: 12px; margin-right: 20px">Lisa Hemingway, <i>Operation Employee</i></span>
+  <mat-chip-list>
+    <mat-chip style="background-color: white; font-size: 12px">
+      Log Out
+    </mat-chip>
+  </mat-chip-list>
+</mat-toolbar>
+
+
+<router-outlet></router-outlet>

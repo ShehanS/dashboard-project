@@ -1,0 +1,25 @@
+.spacer {
+  flex: 1 1 auto;
+}
+.logo-text{
+  position: relative;
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #1177BF;
+}
+.title-text{
+  position: relative;
+  font-weight: bold;
+  font-size: 18px;
+  color: black;
+}
+.title-header{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+}
+
